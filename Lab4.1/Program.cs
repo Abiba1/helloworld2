@@ -4,6 +4,8 @@ namespace Lab4._1
 {
 	class Program
 	{
+		private static double A, B;
+
 		static void Main(string[] args)
 		{
 			while (true)
@@ -25,11 +27,15 @@ namespace Lab4._1
 				case "3":
 				case "4":
 				case "5":
+					Multiply(A, B);
+					break;
 				case "6":
 				default:
 					Console.WriteLine("Unrecognized command.");
 					break;
 			}
 		}
+
+		static void Multiply(double a, double b) => Console.WriteLine(a * b);
 	}
 }
