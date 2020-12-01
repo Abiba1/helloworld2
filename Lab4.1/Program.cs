@@ -4,6 +4,8 @@ namespace Lab4._1
 {
 	class Program
 	{
+		private static double A;
+
 		static void Main(string[] args)
 		{
 			while (true)
@@ -21,6 +23,8 @@ namespace Lab4._1
 			switch (input)
 			{
 				case "1":
+					InputA(Console.ReadLine());
+					break;
 				case "2":
 				case "3":
 				case "4":
@@ -29,6 +33,18 @@ namespace Lab4._1
 				default:
 					Console.WriteLine("Unrecognized command.");
 					break;
+			}
+		}
+
+		static void InputA(string input)
+		{
+			try
+			{
+				A = double.Parse(input);
+			}
+			catch (Exception)
+			{
+				Console.WriteLine("Please type in a number.");
 			}
 		}
 	}
