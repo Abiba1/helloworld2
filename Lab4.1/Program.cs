@@ -45,7 +45,6 @@ namespace Lab4._1
 			catch (Exception)
 			{
 				Console.WriteLine("Please type in a number.");
-				throw;
 			}
 		}
 	}
