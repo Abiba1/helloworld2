@@ -38,6 +38,8 @@ namespace Lab4._1
 					Multiply(A, B);
 					break;
 				case "6":
+					Divide(A, B);
+					break;
 				default:
 					Console.WriteLine("Unrecognized command.");
 					break;
@@ -72,5 +74,7 @@ namespace Lab4._1
 		static void Minus(double a, double b) => Console.WriteLine(a - b);
 
 		static void Multiply(double a, double b) => Console.WriteLine(a * b);
+
+		static void Divide(double a, double b) => Console.WriteLine(a / b);
 	}
 }
