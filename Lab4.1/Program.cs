@@ -16,7 +16,7 @@ namespace Lab4._1
 		}
 
 		static void PrintMenu() =>
-			Console.WriteLine("1: Input A\n2: Input B\n3: +\n4: -\n 5: *\n6: /");
+			Console.WriteLine("1: Input A\n2: Input B\n3: +\n4: -\n5: *\n6: /");
 
 		static void DoAction(string input)
 		{
