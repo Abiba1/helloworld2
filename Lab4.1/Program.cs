@@ -29,6 +29,8 @@ namespace Lab4._1
 					InputB(Console.ReadLine());
 					break;
 				case "3":
+					Plus(A, B);
+					break;
 				case "4":
 				case "5":
 				case "6":
@@ -61,5 +63,6 @@ namespace Lab4._1
 				Console.WriteLine("Please type in a number.");
 			}
 		}
+		static void Plus(double a, double b) => Console.WriteLine(a + b);
 	}
 }
