@@ -34,7 +34,7 @@ namespace Lab4._1
 					Console.WriteLine("Unrecognized command.");
 					break;
 			}
-			Console.WriteLine("Попытка 9");
+			Console.WriteLine("Попытка 10");
 		}
 
 		static void Plus(double a, double b) => Console.WriteLine(a + b);
