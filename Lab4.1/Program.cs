@@ -35,7 +35,8 @@ namespace Lab4._1
 					break;
 			}
 			Console.WriteLine("Попытка 20");
-		}
+            Console.WriteLine("Попытка rtx");
+        }
 
 		static void Plus(double a, double b) => Console.WriteLine(a + b);
 		
